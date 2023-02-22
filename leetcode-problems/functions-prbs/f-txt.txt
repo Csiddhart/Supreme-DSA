@@ -1,0 +1,4 @@
+here :-
+kth-bit prb
+reverse integer pb
+convert temp(celcius to kelvin and farenhit) prb
