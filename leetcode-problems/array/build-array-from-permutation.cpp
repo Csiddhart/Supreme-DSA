@@ -1,5 +1,5 @@
-//T.C:-O(n) solution
-
+//T.C:-O(n) solution ans 
+//S.C.:- O(n) solution ans
 class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
