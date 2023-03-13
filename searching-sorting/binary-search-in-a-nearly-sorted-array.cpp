@@ -52,17 +52,17 @@ int binarysearch(vector<int>arr,int target){
     if(arr[mid]==target){
       return mid;
     }
-    if(mid>=s && arr[mid-1]==target){// ekhane dekhe nebo j mid-1 ta -ve hocche nah toh
+    if(mid>=s && arr[mid-1]==target){                            // ekhane dekhe nebo j mid-1 ta -ve hocche nah toh
       return mid-1;
     }
-    if(mid+1<=e && arr[mid+1]==target){// ekhane dekhe nebo j mid+1 ta out of bound chole jacche nah toh
+    if(mid+1<=e && arr[mid+1]==target){                         // ekhane dekhe nebo j mid+1 ta out of bound chole jacche nah toh
       return mid+1;
     }
 
     if(target>arr[mid]){
-      s=mid+2;  //right search
+      s=mid+2;                                                  //right search
     }else{
-      e=mid-2;   //left search
+      e=mid-2;                                                 //left search
     }
     mid=s+(e-s)/2;
   }
