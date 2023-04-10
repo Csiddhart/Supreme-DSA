@@ -4,9 +4,9 @@ void printArrayElements(int arr[],int i,int size){
     // Base Case
     if(i == size)
         return;
-    // Processing
+    // Processing (one case done)
     cout<<arr[i]<<" ";
-    // Recursive Relation
+    // Recursive Relation (baki recursion samle nebe)
     printArrayElements(arr,i+1,size);
 }
 int main(){
